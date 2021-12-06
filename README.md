@@ -41,6 +41,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### `npm run build` fails to minify
 
-[![Recognize text from image](https://streamable.com/6oaxdl)](https://streamable.com/6oaxdl)
+<div style="width: 100%; height: 0px; position: relative; padding-bottom: 50.313%;"><iframe src="https://streamable.com/e/6oaxdl" frameborder="0" width="100%" height="100%" allowfullscreen style="width: 100%; height: 100%; position: absolute;"></iframe></div>
 
 
