@@ -41,6 +41,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### `npm run build` fails to minify
 
-##https://streamable.com/6oaxdl
+[![Recognize text from image](https://streamable.com/6oaxdl)](https://streamable.com/6oaxdl)
 
 
