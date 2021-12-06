@@ -1,0 +1,93 @@
+.RecognizePage {
+  margin-top: 30px;
+
+  .left-wrapper {
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+  }
+
+  .icon-close {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    z-index: 1;
+    color: #ffffff;
+    font-size: 50px;
+    cursor: pointer;
+  }
+
+  .file-preview {
+    max-width: 500px;
+    min-height: 300px;
+    border-radius: 18px;
+  }
+
+  textarea {
+    min-width: 500px;
+    min-height: 300px;
+    padding: 20px;
+
+    border: 2px solid #00b09b;
+    border-radius: 18px;
+    color: #00b09b;
+
+    &:active {
+      border: 2px solid #00b09b;
+      border-radius: 18px;
+      color: #00b09b;
+    }
+  }
+
+  .controller {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  select {
+    border: 2px solid #00b09b;
+    border-radius: 50px;
+    color: #00b09b;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+
+  button {
+    background: linear-gradient(to right, #00b09b, #96c93d);
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+    margin-right: 10px;
+  }
+
+  .status {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #00b09b;
+  }
+
+  .progress-bar {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #00b09b;
+    border-radius: 50px;
+    height: 10px;
+
+    .percent {
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 1;
+      height: 100%;
+      background: linear-gradient(to right, #00b09b, #96c93d);
+    }
+  }
+}
